@@ -1,4 +1,8 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+/** @type {import('@/insulate/next').NextConfig} */
+const nextConfig = {
+ 
+};
 
 export default nextConfig;
+
+
