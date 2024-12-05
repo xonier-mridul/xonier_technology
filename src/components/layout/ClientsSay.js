@@ -8,13 +8,15 @@ import Image from "next/image";
 const ClientsSay = () => {
 
   const settings = {
-    className: "center",
-    centerMode: true,
+    dots: true,
     infinite: true,
-    centerPadding: "60px",
     slidesToShow: 3,
-    speed: 500,
-    dots: true
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    // cssEase: "linear"
+    
   };
   
   return (
@@ -40,7 +42,7 @@ const ClientsSay = () => {
                   height={300}
                   alt="biol"
                 />
-                <div className="w-full flex items-center bg-blue-800 px-5 py-4 gap-3">
+                <div className="w-full flex items-center bg-blue-400 px-5 py-4 gap-3">
                   <Image
                     src={"/user-icon.png"}
                     width={50}
@@ -61,7 +63,7 @@ const ClientsSay = () => {
                   height={300}
                   alt="biol"
                 />
-                <div className="w-full flex items-center bg-blue-800 px-5 py-4 gap-3">
+                <div className="w-full flex items-center bg-blue-400 px-5 py-4 gap-3">
                   <Image
                     src={"/user-icon.png"}
                     width={50}
@@ -82,7 +84,7 @@ const ClientsSay = () => {
                   height={300}
                   alt="biol"
                 />
-                <div className="w-full flex items-center bg-blue-800 px-5 py-4 gap-3">
+                <div className="w-full flex items-center bg-blue-400 px-5 py-4 gap-3">
                   <Image
                     src={"/user-icon.png"}
                     width={50}

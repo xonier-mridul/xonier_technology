@@ -1,11 +1,10 @@
 "use client"
 import React, {useEffect} from "react";
-import Image from "next/image";
 import HeadingDivider from "./HeadingDivider";
 import Link from "next/link";
 import Aos from "aos";
 import 'aos/dist/aos.css';
-
+import { FaAngleRight } from "react-icons/fa6";
 
 
 const Banner = () => {
@@ -18,8 +17,8 @@ const Banner = () => {
     
   return (
     <>
-      <div className="py-20 pt-52 banner">
-        <div className="max-w-7xl m-auto flex items-center justify-center">
+      <div className="py-20 pb-36 pt-52 banner relative">
+        <div className="max-w-7xl m-auto flex items-center justify-center ">
           <div className="w-1/2">
             <h1
               style={{ letterSpacing: "-1.5px" }}
@@ -35,13 +34,9 @@ const Banner = () => {
               house with a strong focus on customized software development, and
               mobile application development.
             </p>
-            <Link
-              href={"/"}
-              className="w-fit border-2 border-blue-800 text-blue-800 px-[34px] py-3 text-lg rounded-bl-2xl  rounded-tr-2xl hover:bg-blue-800 hover:text-white transition-[0.6s]"
-            >
-              
-              Schedule Your Free Consultation
-            </Link>
+            <Link href={"/"}
+              className="btn  border-2 border-blue-800 text-blue-800 px-[34px] py-3 text-lg rounded-lg hover:bg-blue-800 hover:text-white flex gap-3 w-fit items-center ">
+              Schedule Your Free Consultation  <FaAngleRight className="btn-icon transition-all duration-500"/></Link>
           </div>
 
           <div className="w-1/2 flex justify-end">

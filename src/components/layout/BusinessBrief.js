@@ -2,25 +2,28 @@
 import React from 'react'
 import Image from 'next/image'
 import CountUp from 'react-countup'
+import { IoRocketSharp } from "react-icons/io5";
+import { MdGroups } from "react-icons/md";
+import { FaGlobeAmericas } from "react-icons/fa";
+import { LuServerCog } from "react-icons/lu";
+import { FaHandsHelping } from "react-icons/fa";
+import { IoBriefcaseSharp } from "react-icons/io5";
+import { GiClockwork } from "react-icons/gi";
+import { RiCustomerService2Line } from "react-icons/ri";
 
 const BusinessBrief = () => {
   return (
     <>
       <div className='py-20 bg-[#e7e7ff]'>
-        <div className="max-w-7xl m-auto grid gap-y-16  grid-cols-4 ">
+        <div className="max-w-7xl m-auto grid gap-y-20  grid-cols-4 ">
 
-            <div className='flex items-center gap-5'>
-                <div className='w-20 h-20 bg-white rounded-lg rounded-tr-[40px] rounded-bl-[40px] flex justify-center items-center'>
-                   <Image
-                     src={"/startup.svg"}
-                     width={50}
-                     height={50}
-                     alt=''
-                   />
+            <div className='business flex items-center gap-5'>
+                <div className='busi-icon w-20 h-20 bg-white rounded-lg rounded-tr-[30px] rounded-bl-[30px] flex justify-center items-center border-[1px] border-red-500'>
+                <IoRocketSharp className='busi-icons text-3xl text-blue-800' />
 
                 </div>
                 <div className=''>
-                     <h3 className='text-4xl font-semibold pb-2'>
+                     <h3 className='text-3xl font-semibold pb-2'>
                         <CountUp
                         start={0}
                         end={7}
@@ -30,18 +33,13 @@ const BusinessBrief = () => {
                 </div>
 
             </div>
-            <div className='flex items-center gap-5'>
-                <div className='w-20 h-20 bg-white rounded-lg rounded-tr-[40px] rounded-bl-[40px] flex justify-center items-center'>
-                   <Image
-                     src={"/team.svg"}
-                     width={50}
-                     height={50}
-                     alt=''
-                   />
+            <div className='business flex items-center gap-5'>
+                <div className='busi-icon w-20 h-20 bg-white rounded-lg rounded-tr-[30px] rounded-bl-[30px] flex justify-center items-center border-[1px] border-red-500 transition-all duration-500'>
+                <MdGroups className='busi-icons text-4xl text-blue-800 transition-all duration-500' />
 
                 </div>
                 <div className=''>
-                     <h3 className='text-4xl font-semibold pb-2'>
+                     <h3 className='text-3xl font-semibold pb-2'>
                         <CountUp
                         start={0}
                         end={150}
@@ -51,18 +49,13 @@ const BusinessBrief = () => {
                 </div>
 
             </div>
-            <div className='flex items-center gap-5'>
-                <div className='w-20 h-20 bg-white rounded-lg rounded-tr-[40px] rounded-bl-[40px] flex justify-center items-center'>
-                   <Image
-                     src={"/countries-served.png"}
-                     width={50}
-                     height={50}
-                     alt=''
-                   />
+            <div className='business flex items-center gap-5'>
+                <div className='busi-icon w-20 h-20 bg-white rounded-lg rounded-tr-[30px] rounded-bl-[30px] flex justify-center items-center border-[1px] border-red-500 transition-all duration-500'>
+                <FaGlobeAmericas className='busi-icons text-3xl text-blue-800 transition-all duration-500' />
 
                 </div>
                 <div className=''>
-                     <h3 className='text-4xl font-semibold pb-2'>
+                     <h3 className='text-3xl font-semibold pb-2'>
                         <CountUp
                         start={0}
                         end={110}
@@ -72,18 +65,13 @@ const BusinessBrief = () => {
                 </div>
 
             </div>
-            <div className='flex items-center gap-5'>
-                <div className='w-20 h-20 bg-white rounded-lg rounded-tr-[40px] rounded-bl-[40px] flex justify-center items-center'>
-                   <Image
-                     src={"/technologies-covered.png"}
-                     width={50}
-                     height={50}
-                     alt=''
-                   />
+            <div className='business flex items-center gap-5'>
+                <div className='busi-icon w-20 h-20 bg-white rounded-lg rounded-tr-[30px] rounded-bl-[30px] flex justify-center items-center border-[1px] border-red-500 transition-all duration-500'>
+                <LuServerCog className='busi-icons text-3xl text-blue-800 transition-all duration-500' />
 
                 </div>
                 <div className=''>
-                     <h3 className='text-4xl font-semibold pb-2'>
+                     <h3 className='text-3xl font-semibold pb-2'>
                         <CountUp
                         start={0}
                         end={130}
@@ -93,18 +81,13 @@ const BusinessBrief = () => {
                 </div>
 
             </div>
-            <div className='flex items-center gap-5'>
-                <div className='w-20 h-20 bg-white rounded-lg rounded-tr-[40px] rounded-bl-[40px] flex justify-center items-center'>
-                   <Image
-                     src={"/deal.svg"}
-                     width={50}
-                     height={50}
-                     alt=''
-                   />
+            <div className='business flex items-center gap-5'>
+                <div className='busi-icon w-20 h-20 bg-white rounded-lg rounded-tr-[30px] rounded-bl-[30px] flex justify-center items-center border-[1px] border-red-500 transition-all duration-500'>
+                <FaHandsHelping className='busi-icons text-3xl text-blue-800  transition-all duration-500' />
 
                 </div>
                 <div className=''>
-                     <h3 className='text-4xl font-semibold pb-2'>
+                     <h3 className='text-3xl font-semibold pb-2'>
                         <CountUp
                         start={0}
                         end={2000}
@@ -114,18 +97,13 @@ const BusinessBrief = () => {
                 </div>
 
             </div>
-            <div className='flex items-center gap-5'>
-                <div className='w-20 h-20 bg-white rounded-lg rounded-tr-[40px] rounded-bl-[40px] flex justify-center items-center'>
-                   <Image
-                     src={"/computers.svg"}
-                     width={50}
-                     height={50}
-                     alt=''
-                   />
+            <div className='business flex items-center gap-5'>
+                <div className='busi-icon w-20 h-20 bg-white rounded-lg rounded-tr-[30px] rounded-bl-[30px] flex justify-center items-center border-[1px] border-red-500 transition-all duration-500'>
+                <IoBriefcaseSharp className='busi-icons text-3xl text-blue-800 transition-all duration-500' />
 
                 </div>
                 <div className=''>
-                     <h3 className='text-4xl font-semibold pb-2'>
+                     <h3 className='text-3xl font-semibold pb-2'>
                         <CountUp
                         start={0}
                         end={5000}
@@ -136,18 +114,13 @@ const BusinessBrief = () => {
 
             </div>
 
-            <div className='flex items-center gap-5'>
-                <div className='w-20 h-20 bg-white rounded-lg rounded-tr-[40px] rounded-bl-[40px] flex justify-center items-center'>
-                   <Image
-                     src={"/worker.svg"}
-                     width={50}
-                     height={50}
-                     alt=''
-                   />
+            <div className='business flex items-center gap-5'>
+                <div className='busi-icon w-20 h-20 bg-white rounded-lg rounded-tr-[30px] rounded-bl-[30px] flex justify-center items-center border-[1px] border-red-500 transition-all duration-500'>
+                <GiClockwork className='busi-icons text-4xl text-blue-800 transition-all duration-500' />
 
                 </div>
                 <div className=''>
-                     <h3 className='text-4xl font-semibold pb-2'>
+                     <h3 className='text-3xl font-semibold pb-2'>
                         <CountUp
                         start={0}
                         end={70}
@@ -157,18 +130,13 @@ const BusinessBrief = () => {
                 </div>
 
             </div>
-            <div className='flex items-center gap-5'>
-                <div className='w-20 h-20 bg-white rounded-lg rounded-tr-[40px] rounded-bl-[40px] flex justify-center items-center'>
-                   <Image
-                     src={"/worker.svg"}
-                     width={50}
-                     height={50}
-                     alt=''
-                   />
+            <div className='business flex items-center gap-5'>
+                <div className='busi-icon w-20 h-20 bg-white rounded-lg rounded-tr-[30px] rounded-bl-[30px] flex justify-center items-center border-[1px] border-red-500 transition-all duration-500'>
+                <RiCustomerService2Line className='busi-icons text-4xl text-blue-800 transition-all duration-500'/>
 
                 </div>
                 <div className=''>
-                     <h3 className='text-4xl font-semibold pb-2'>
+                     <h3 className='text-3xl font-semibold pb-2'>
                         <CountUp
                         start={0}
                         end={24}

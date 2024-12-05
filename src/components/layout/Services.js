@@ -2,6 +2,7 @@ import React from "react";
 import HeadingDivider from "./HeadingDivider";
 import Link from "next/link";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { FaAngleRight } from "react-icons/fa6";
 const Services = () => {
   return (
     <>
@@ -20,7 +21,13 @@ const Services = () => {
             </p>
           </div>
           <div className="w-[43%] flex justify-end items-center">
-          <Link href={"/"} className="capitalize text-lg bg-blue-800 flex items-center justify-center gap-3 rounded-tl-sm rounded-br-sm rounded-tr-xl rounded-bl-xl px-6 py-[13px] text-white border-2 border-blue-800 hover:bg-white hover:text-blue-700 transition-all duration-500">See All Services <FaArrowRightLong className="text-lg"/> </Link>
+          <Link
+            href={"/"}
+            className="btn  border-2 border-blue-800 text-blue-800 px-[34px] py-3 text-lg rounded-lg hover:bg-blue-800 hover:text-white flex gap-3 w-fit items-center "
+          >
+            Schedule Your Free Consultation{" "}
+            <FaAngleRight className="btn-icon transition-all duration-500" />
+          </Link>
           </div>
         </div>
         <div className="w-full grid grid-cols-3 gap-8 pt-14">

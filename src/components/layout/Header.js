@@ -5,6 +5,7 @@ import Link from "next/link";
 import Marquee from "react-fast-marquee";
 import { FaSearch } from "react-icons/fa";
 import { usePathname } from "next/navigation";
+import { FaAngleRight } from "react-icons/fa6";
 
 const Header = () => {
   const [PrimaryNavShow, setPrimaryNavShow] = useState(true);
@@ -42,7 +43,7 @@ const Header = () => {
           </div>
 
           <div className="flex items-center py-4 max-w-7xl m-auto gap-5">
-            <div className="w-1/6">
+            <div className="w-[20%]">
               <Image
                 src="/xonier-logo.png"
                 height={200}
@@ -50,7 +51,7 @@ const Header = () => {
                 alt="Xonier Logo"
               />
             </div>
-            <div className="w-4/6 flex justify-end items-center">
+            <div className="w-[60%] flex justify-end items-center">
               <nav>
                 <ul className="flex items-center gap-6 ">
                   <li>
@@ -94,12 +95,13 @@ const Header = () => {
                 </ul>
               </nav>
             </div>
-            <div className="w-1/6 flex justify-end">
+            <div className="w-[20%] flex justify-end">
               <Link
-                className="text-lg bg-red-500 py-3 px-6 text-white rounded-full"
+                className="btn  text-lg bg-red-500 py-3 px-7 text-white rounded-lg flex justify-center items-center gap-2"
                 href={"/"}
               >
-                Get Free Estimation
+               
+                Get Free Estimation <FaAngleRight className="btn-icon transition-all duration-500"/>
               </Link>
             </div>
           </div>
@@ -107,7 +109,7 @@ const Header = () => {
       ) : (
         <div className="bg-blue-800 py-2 fixed top-0 left-0 w-full z-20">
           <div className="flex items-center py-4 max-w-7xl m-auto gap-5">
-            <div className="w-1/6">
+            <div className="w-[20%]">
               <Image
                 src="/xonier-logo-light.png"
                 height={180}
@@ -115,7 +117,7 @@ const Header = () => {
                 alt="Xonier Logo"
               />
             </div>
-            <div className="w-4/6 flex justify-end items-center">
+            <div className="w-[60%] flex justify-end items-center">
               <nav>
                 <ul className="flex items-center gap-6 ">
                   <li>
@@ -156,12 +158,13 @@ const Header = () => {
                 </ul>
               </nav>
             </div>
-            <div className="w-1/6 flex justify-end">
-              <Link
-                className="text-lg bg-red-500 py-3 px-6 text-white rounded-full"
+            <div className="w-[20%] flex justify-end">
+            <Link
+                className="btn  text-lg bg-red-500 py-3 px-7 text-white rounded-lg flex justify-center items-center gap-2"
                 href={"/"}
               >
-                Get Free Estimation
+               
+                Get Free Estimation <FaAngleRight className="btn-icon transition-all duration-500"/>
               </Link>
             </div>
           </div>

@@ -19,8 +19,8 @@ export default function Home() {
    <Partner/>
    <AboutSection/>
    <BusinessBrief/>
-   <Redefing/>
    <Services/>
+   <Redefing/>
    <ClientsSay/>
    <Awards/>
    <TechnologySec/>

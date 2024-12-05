@@ -50,10 +50,51 @@ animation: dividerIocnAnim 2s linear infinite;
 
 .banner{
   background-image: linear-gradient(135deg, #fff 65%, #1E40AF 0);
+  /* background: url("/service_bg_1.png");
+  background-position: bottom center;
+  background-size: contain;
+  background-repeat: no-repeat; */
+}
+
+/* .banner::before{
+  content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(90deg, rgba(4, 42, 45, 0) 65.37%, #1e40af4d 100.18%), linear-gradient(180deg, rgba(4, 42, 45, 0) 59.75%, #1e40af4d 100%);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+} */
+
+.btn:hover .btn-icon{
+  transform: translateX(7px);
 }
 
 .marquees{
   animation: blink 2s linear infinite ;
+}
+
+.ab:hover .ab-icon{
+  color:#ffffff;
+}
+.ab:hover h3{
+  color:#ffffff;
+}
+.ab:hover p{
+  color:#ffffff;
+}
+
+.business:hover .busi-icon{
+  background-color: #EF4444;
+}
+
+.business:hover .busi-icons{
+  color: #ffffff;
 }
 
 .slick-track {
