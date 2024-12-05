@@ -54,7 +54,7 @@ const Services = () => {
             <div className="service-box p-12 rounded-2xl shadow-[0px_0px_20px_#00000020] hover:translate-y-[-6px] duration-500 hover:bg-blue-800 ">
                 <h3 className="text-3xl pb-3 transition-all duration-500">Remote
                 <br/>  Team </h3>
-                <p className="text-lg mb-4 text-justify transition-all duration-500">We have a team of Developers, Project Managers around the expertise you're looking for to empower your technological capabilities.</p>
+                <p className="text-lg mb-4 text-justify transition-all duration-500">We have a team of Developers, Project Managers around the expertise you are looking for to empower your technological capabilities.</p>
                 <Link className="service-link flex items-center  gap-2 text-lg text-blue-800 transition-all duration-500" href={"/"}>More about remote team<FaArrowRightLong className="text-lg"/> </Link>
 
             </div>

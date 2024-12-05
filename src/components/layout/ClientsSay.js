@@ -27,7 +27,7 @@ const ClientsSay = () => {
             </h2>
             <p className="text-lg pb-6 text-center w-1/2">
               We are delivering strong results and outcomes for some of the
-              world's leading new age digital challengers and businesses.
+              world leading new age digital challengers and businesses.
             </p>
           </div>
           <div>

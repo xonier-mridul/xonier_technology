@@ -24,7 +24,7 @@ const Footer = () => {
             />
             <p className="text-white pb-4">
               We are moving towards an ecosystem responsible business, with a
-              view to keeping alive the DNA of an "Always in Startup Mode"
+              view to keeping alive the DNA of an Always in Startup Mode
               entity.
             </p>
 
