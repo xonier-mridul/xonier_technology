@@ -1,5 +1,5 @@
-import AboutBanner from '@/components/aboutCompo/AboutBanner'
-import AboutPageBanner from '@/components/aboutCompo/AboutPageBanner'
+import AboutBanner from '@/components/layout/AboutBanner'
+import AboutPageBanner from '@/components/layout/AboutPageBanner'
 import React from 'react'
 
 const page = () => {

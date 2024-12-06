@@ -27,7 +27,7 @@ const TechnologySec = () => {
          
         </div>
         <div className="w-full">
-            <ul className="tabs grid grid-cols-5 items-center p-5 gap-5 rounded-lg shadow-[0_0_20px_#00000025] mb-20">
+            <ul className="tabs grid grid-cols-5 items-center p-5 gap-5 rounded-lg shadow-[0_0_20px_#00000015] mb-20">
               <li className={`${activeTab === 1 ? "bg-blue-800 hover:bg-blue-800 text-white" : "bg-white text-blue-800 hover:bg-gray-50"} p-3 rounded-lg border-2  text-lg border-blue-800 text-center cursor-pointer  transition-all duration-300`} onClick={()=>setactiveTab(1)}>FrontEnd Development </li>
               <li className={`${activeTab === 2 ? "bg-blue-800 hover:bg-blue-800 text-white" : "bg-white text-blue-800 hover:bg-gray-50"} p-3 rounded-lg border-2  text-lg border-blue-800 text-center cursor-pointer  transition-all duration-300`} onClick={()=>setactiveTab(2)}>BackEnd Development </li>
               <li className={`${activeTab === 3 ? "bg-blue-800 hover:bg-blue-800 text-white" : "bg-white text-blue-800 hover:bg-gray-50"} p-3 rounded-lg border-2  text-lg border-blue-800 text-center cursor-pointer  transition-all duration-300`} onClick={()=>setactiveTab(3)}>Mobile Development </li>

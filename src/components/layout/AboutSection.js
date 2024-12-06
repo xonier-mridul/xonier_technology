@@ -39,92 +39,10 @@ const AboutSection = () => {
             leveraging Open Source software, Mobile devices, and the
             public/private cloud.
           </p>
-          {/* <div className="grid grid-cols-2 gap-4 pb-4">
-            <div className="flex items-start gap-3">
-              <div className="w-25%">
-                <span className="flex items-center justify-center p-3 bg-[#68a8da26] rounded-md">
-                  <FaMedal className="text-4xl text-blue-800" />
-                </span>
-              </div>
-              <div className="w-75%">
-                <h3 className="text-2xl pb-2">Corporate</h3>
-                <p className="text-lg ">
-                  Working as one team associated with your internal business/IT
-                  groups, we help to create end-to-end reliable technical
-                  solutions for your end customers.
-                </p>
-              </div>
-            </div>
-            <div className="flex items-start gap-3">
-              <div className="w-25%">
-                <span className="flex items-center justify-center p-3 bg-[#68a8da26] rounded-md">
-                  <AiOutlineAim className="text-4xl text-blue-800" />
-                </span>
-              </div>
-              <div className="w-75%">
-                <h3 className="text-2xl pb-2">Mission</h3>
-                <p className="text-lg ">
-                  Our mission is to serve as trusted accelerators, guiding our
-                  clients through their digital transformation journey across
-                  diverse industries in global markets.
-                </p>
-              </div>
-            </div>
-            <div className="flex items-start gap-3">
-              <div className="w-25%">
-                <span className="flex items-center justify-center p-3 bg-[#68a8da26] rounded-md">
-                  <FaGlobe className="text-4xl text-blue-800" />
-                </span>
-              </div>
-              <div className="w-75%">
-                <h3 className="text-2xl pb-2 capitalize">worldwide services</h3>
-                <p className="text-lg ">
-                  We have presence in six countries, in USA, Spain, Germany,
-                  Saudi Arabia, Netherlands and India
-                </p>
-              </div>
-            </div>
-            <div className="flex items-start gap-3">
-              <div className="w-25%">
-                <span className="flex items-center justify-center p-3 bg-[#68a8da26] rounded-md">
-                  <FaEye className="text-4xl text-blue-800" />
-                </span>
-              </div>
-              <div className="w-75%">
-                <h3 className="text-2xl pb-2">Vision</h3>
-                <p className="text-lg ">
-                  Our vision is to become the foremost facilitators, propelling
-                  our clients forward in their digital endeavours across various
-                  sectors and geographic markets worldwide.
-                </p>
-              </div>
-            </div>
-          </div> */}
-          {/* <div className="flex items-start gap-3 pb-8">
-            <div className="w-25%">
-              <span className="flex items-center justify-center p-3 bg-[#68a8da26] rounded-md">
-                <PiOfficeChairBold className="text-4xl text-blue-800" />
-              </span>
-            </div>
-            <div className="w-75%">
-              <h3 className="text-2xl pb-2">Experience</h3>
-              <p className="text-lg ">
-                We take pride in having a CEO with a proven track record of
-                successfully delivering software development projects within the
-                designated timeframes. With over 14+ years of industry
-                experience, our CEO brings a wealth of expertise and leadership
-                to ensure timely and efficient project execution.
-              </p>
-            </div>
-          </div> */}
+         
         </div>
         <div className="w-1/2 flex justify-end items-center">
-          {/* <Image
-            src={"/aboutImg.png"}
-            width={570}
-            height={570}
-            alt="About Image"
-          /> */}
+          
           <Link
             href={"/"}
             className="btn  border-2 border-blue-800 text-blue-800 px-[34px] py-3 text-lg rounded-lg hover:bg-blue-800 hover:text-white flex gap-3 w-fit items-center "

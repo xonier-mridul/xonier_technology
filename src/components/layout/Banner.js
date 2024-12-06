@@ -40,14 +40,7 @@ const Banner = () => {
           </div>
 
           <div className="w-1/2 flex justify-end">
-            {/* <Image
-              className="max-w-full"
-              src={"/sidebar1.png"}
-              quality={100}
-              width={600}
-              height={600}
-              alt="sidebar"
-            /> */}
+           
 
             <ul className="hexgrid pl-0">
               <li className="hex" data-aos="fade-up" data-aos-delay="0">
