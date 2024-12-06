@@ -71,7 +71,7 @@ const TestimonialPage = () => {
                   />
                 </div>
                 <p className="text-gray-600 text-lg italic mb-6">
-                  "{testimonial.testimonial}"
+                  {testimonial.testimonial}
                 </p>
                 <h3 className="text-xl font-semibold text-gray-800">
                   {testimonial.name}
