@@ -15,6 +15,8 @@ const Whatsapp = () => {
   const ampm = Hrs <= 12 ? "am" : "pm";
 
   useEffect(() => {
+
+    if(typeof window !== "undefined"){
     const whatsappMessage = document.querySelector(".whatsappMain");
     const div = document.createElement("div");
     div.classList = "whatsapp";
@@ -24,7 +26,8 @@ const Whatsapp = () => {
          <div style="display:flex; align-itmes:center; justify-content:space-between;"> <p>Hii their!</p> <span style="font-size: 12px; display:flex; align-items:center"> ${hours}:${minuts} ${ampm} </span> </div>
       </div>`;
     whatsappMessage.appendChild(div);
-  }, []);
+    }
+  }, [hours, minuts, ampm]);
 
   return (
     <>
