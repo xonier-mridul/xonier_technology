@@ -10,6 +10,7 @@ import TechnologySec from "@/components/layout/TechnologySec";
 import Contact from "@/components/layout/Contact";
 import Feature from "@/components/layout/Feature";
 import BusinessBrief from "@/components/layout/BusinessBrief";
+import TestimonialPage from "@/components/layout/Testimonial";
 
 
 export default function Home() {
@@ -20,8 +21,9 @@ export default function Home() {
    <AboutSection/>
    <BusinessBrief/>
    <Services/>
-   <Redefing/>
-   <ClientsSay/>
+   {/* <Redefing/> */}
+
+   <TestimonialPage/>
    <Awards/>
    <TechnologySec/>
    <Contact/>

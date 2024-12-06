@@ -10,14 +10,19 @@ import { FaHandsHelping } from "react-icons/fa";
 import { IoBriefcaseSharp } from "react-icons/io5";
 import { GiClockwork } from "react-icons/gi";
 import { RiCustomerService2Line } from "react-icons/ri";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const BusinessBrief = () => {
+    Aos.init({
+        duration: 2000,
+    })
   return (
     <>
       <div className='py-20 bg-[#e7e7ff]'>
         <div className="max-w-7xl m-auto grid gap-y-20  grid-cols-4 ">
 
-            <div className='business flex items-center gap-5'>
+            <div className='business flex items-center gap-5' data-aos="zoom-in">
                 <div className='busi-icon w-20 h-20 bg-white rounded-lg rounded-tr-[30px] rounded-bl-[30px] flex justify-center items-center border-[1px] border-red-500'>
                 <IoRocketSharp className='busi-icons text-3xl text-blue-800' />
 
@@ -33,7 +38,7 @@ const BusinessBrief = () => {
                 </div>
 
             </div>
-            <div className='business flex items-center gap-5'>
+            <div className='business flex items-center gap-5' data-aos="zoom-in" data-aos-delay="100">
                 <div className='busi-icon w-20 h-20 bg-white rounded-lg rounded-tr-[30px] rounded-bl-[30px] flex justify-center items-center border-[1px] border-red-500 transition-all duration-500'>
                 <MdGroups className='busi-icons text-4xl text-blue-800 transition-all duration-500' />
 
@@ -49,7 +54,7 @@ const BusinessBrief = () => {
                 </div>
 
             </div>
-            <div className='business flex items-center gap-5'>
+            <div className='business flex items-center gap-5' data-aos="zoom-in" data-aos-delay="200">
                 <div className='busi-icon w-20 h-20 bg-white rounded-lg rounded-tr-[30px] rounded-bl-[30px] flex justify-center items-center border-[1px] border-red-500 transition-all duration-500'>
                 <FaGlobeAmericas className='busi-icons text-3xl text-blue-800 transition-all duration-500' />
 
@@ -65,7 +70,7 @@ const BusinessBrief = () => {
                 </div>
 
             </div>
-            <div className='business flex items-center gap-5'>
+            <div className='business flex items-center gap-5' data-aos="zoom-in" data-aos-delay="300">
                 <div className='busi-icon w-20 h-20 bg-white rounded-lg rounded-tr-[30px] rounded-bl-[30px] flex justify-center items-center border-[1px] border-red-500 transition-all duration-500'>
                 <LuServerCog className='busi-icons text-3xl text-blue-800 transition-all duration-500' />
 
@@ -81,7 +86,7 @@ const BusinessBrief = () => {
                 </div>
 
             </div>
-            <div className='business flex items-center gap-5'>
+            <div className='business flex items-center gap-5' data-aos="zoom-in" data-aos-delay="0">
                 <div className='busi-icon w-20 h-20 bg-white rounded-lg rounded-tr-[30px] rounded-bl-[30px] flex justify-center items-center border-[1px] border-red-500 transition-all duration-500'>
                 <FaHandsHelping className='busi-icons text-3xl text-blue-800  transition-all duration-500' />
 
@@ -97,7 +102,7 @@ const BusinessBrief = () => {
                 </div>
 
             </div>
-            <div className='business flex items-center gap-5'>
+            <div className='business flex items-center gap-5' data-aos="zoom-in" data-aos-delay="100">
                 <div className='busi-icon w-20 h-20 bg-white rounded-lg rounded-tr-[30px] rounded-bl-[30px] flex justify-center items-center border-[1px] border-red-500 transition-all duration-500'>
                 <IoBriefcaseSharp className='busi-icons text-3xl text-blue-800 transition-all duration-500' />
 
@@ -114,7 +119,7 @@ const BusinessBrief = () => {
 
             </div>
 
-            <div className='business flex items-center gap-5'>
+            <div className='business flex items-center gap-5' data-aos="zoom-in" data-aos-delay="200">
                 <div className='busi-icon w-20 h-20 bg-white rounded-lg rounded-tr-[30px] rounded-bl-[30px] flex justify-center items-center border-[1px] border-red-500 transition-all duration-500'>
                 <GiClockwork className='busi-icons text-4xl text-blue-800 transition-all duration-500' />
 
@@ -130,7 +135,7 @@ const BusinessBrief = () => {
                 </div>
 
             </div>
-            <div className='business flex items-center gap-5'>
+            <div className='business flex items-center gap-5' data-aos="zoom-in" data-aos-delay="300">
                 <div className='busi-icon w-20 h-20 bg-white rounded-lg rounded-tr-[30px] rounded-bl-[30px] flex justify-center items-center border-[1px] border-red-500 transition-all duration-500'>
                 <RiCustomerService2Line className='busi-icons text-4xl text-blue-800 transition-all duration-500'/>
 
