@@ -9,25 +9,32 @@ const Whatsapp = () => {
 
   
   useEffect(() => {
-    if(typeof window !== "undefined"){
-    let Hrs = new Date().getHours();
-    let Min = new Date().getMinutes();
-  
-    const hours = Hrs <= 9 ? "0" + Hrs : Hrs;
-    const minuts = Min <= 9 ? "0" + Min : Min;
-    const ampm = Hrs <= 12 ? "am" : "pm";
+    if (typeof window !== "undefined") {
+        const whatsappMessage = document.querySelector(".whatsappMain");
+        if (whatsappMessage) {
+            let Hrs = new Date().getHours();
+            let Min = new Date().getMinutes();
 
-    const whatsappMessage = document.querySelector(".whatsappMain");
-    const div = document.createElement("div");
-    div.classList = "whatsapp";
-    div.innerHTML = `
-      <div>
-         <h5 style="font-weight: 600"> Dhhirendra Kumar</h5>
-         <div style="display:flex; align-itmes:center; justify-content:space-between;"> <p>Hii their!</p> <span style="font-size: 12px; display:flex; align-items:center"> ${hours}:${minuts} ${ampm} </span> </div>
-      </div>`;
-    whatsappMessage.appendChild(div);
+            const hours = Hrs <= 9 ? "0" + Hrs : Hrs;
+            const minutes = Min <= 9 ? "0" + Min : Min;
+            const ampm = Hrs < 12 ? "am" : "pm";
+
+            const div = document.createElement("div");
+            div.classList = "whatsapp";
+            div.innerHTML = `
+                <div>
+                    <h5 style="font-weight: 600"> Dhhirendra Kumar</h5>
+                    <div style="display:flex; align-items:center; justify-content:space-between;">
+                        <p>Hii their!</p>
+                        <span style="font-size: 12px; display:flex; align-items:center;">
+                            ${hours}:${minutes} ${ampm}
+                        </span>
+                    </div>
+                </div>`;
+            whatsappMessage.appendChild(div);
+        }
     }
-  }, []);
+}, []);
 
   return (
     <>
@@ -55,7 +62,7 @@ const Whatsapp = () => {
               href={"https://wa.me/918700914459"}
               className="bg-[#4fce5d] py-3 flex justify-center items-center rounded-full text-xl gap-2 text-white"
             >
-              {" "}
+              
               <FaWhatsapp className="text-xl" /> Start Chat
             </Link>
           </div>
@@ -65,7 +72,7 @@ const Whatsapp = () => {
           onClick={() => setpopupShow(!popupShow)}
         >
           <FaWhatsapp className="text-[46px] text-[#4fce5d]" />
-        </div>{" "}
+        </div>
       </div>
     </>
   );
