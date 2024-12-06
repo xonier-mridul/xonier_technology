@@ -9,14 +9,14 @@ const Whatsapp = () => {
 
   
   useEffect(() => {
-    const Hrs = new Date().getHours();
-    const Min = new Date().getMinutes();
+    if(typeof window !== "undefined"){
+    let Hrs = new Date().getHours();
+    let Min = new Date().getMinutes();
   
     const hours = Hrs <= 9 ? "0" + Hrs : Hrs;
     const minuts = Min <= 9 ? "0" + Min : Min;
     const ampm = Hrs <= 12 ? "am" : "pm";
 
-    if(typeof window !== "undefined"){
     const whatsappMessage = document.querySelector(".whatsappMain");
     const div = document.createElement("div");
     div.classList = "whatsapp";
@@ -27,7 +27,7 @@ const Whatsapp = () => {
       </div>`;
     whatsappMessage.appendChild(div);
     }
-  }, [hours, minuts, ampm]);
+  }, []);
 
   return (
     <>
