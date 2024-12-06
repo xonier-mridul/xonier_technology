@@ -45,8 +45,10 @@ const Contact = () => {
             </h2>
           </div>
 
-          <div className="w-full flex ">
-            <div className="w-[40%]"></div>
+          <div className="w-full flex gap-10`">
+            <div className="w-[40%] bg-white rounded-md p-10">
+
+            </div>
             <div className="w-[60%]">
               <form className="flex flex-col gap-5" onSubmit={handleSubmit}>
                 <div className="flex gap-6">

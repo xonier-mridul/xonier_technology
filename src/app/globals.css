@@ -298,6 +298,10 @@ animation: dividerIocnAnim 2s linear infinite;
   margin-left: 8.2%;
 }
 
+.testimonial .slick-list {
+  padding-bottom: 20px;
+}
+
 
 @keyframes xRotate {
   0%{

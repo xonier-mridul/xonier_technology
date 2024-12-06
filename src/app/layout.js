@@ -4,7 +4,8 @@ import Header from "@/components/layout/Header";
 import {Jost} from "next/font/google"
 import StoreProvider from "@/components/layout/StoreProvider";
 import Footer from "@/components/layout/Footer";
-const Whatsapp = dynamic(() => import("@/components/layout/Whatsapp"), { ssr: false });
+import dynamic from "next/dynamic";
+import Whatsapp from "@/components/layout/Whatsapp";
 
 
 const jost = Jost({

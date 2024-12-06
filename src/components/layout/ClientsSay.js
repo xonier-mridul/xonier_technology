@@ -21,7 +21,7 @@ const ClientsSay = () => {
   
   return (
     <>
-      <div className="bg-[#F3F5FB]">
+      <div className="client bg-[#F3F5FB]">
         <div className="max-w-7xl m-auto py-20">
           <div className="flex flex-col justify-center items-center gap-4 pb-8">
             <h2 className="text-[48px] font-semibold">

@@ -10,21 +10,21 @@ const testimonials = [
     name: "Darren Webster",
     position: "Founder & CEO - Goalster",
     testimonial:
-      "This platform has revolutionized how we handle procurement. Highly recommended!",
+      "Xonier Technology transformed our digital infrastructure with their cutting-edge solutions. Their team’s professionalism and prompt delivery exceeded expectations, making them a trusted partner in our business growth. Highly recommended!",
     image: "/playvdo.png",
   },
   {
     name: "David Nyurenberg",
     position: "Founder & CEO - Valor digital ",
     testimonial:
-      "The seamless experience and organized projects have been a game-changer for our projects.",
+      "Partnering with Xonier Technology has been a game-changer. They understand our needs and provide tailor-made solutions that enhance efficiency. Their proactive support ensures smooth operations and remarkable results every time.",
     image: "/playvdo.png",
   },
   {
     name: "Offir Manor",
     position: "CEO - Bio-Lead",
     testimonial:
-      "I love how easy it is to compare and outstanding creativity and innovations. Excellent platform!",
+      "Xonier Technology’s dedication and expertise brought our project vision to life. Their seamless communication and innovative strategies made the process effortless. We look forward to collaborating again on future endeavors!",
     image: "/playvdo.png",
   },
 ];
@@ -42,7 +42,7 @@ const TestimonialPage = () => {
   };
 
   return (
-    <section className="bg-[#e7e7ff] py-16">
+    <section className="bg-[#e7e7ff] py-16 testimonial">
       <div className="container mx-auto px-4">
         <div className="flex flex-col justify-center items-center gap-4 pb-8">
           <h2 className="text-[48px] font-semibold">

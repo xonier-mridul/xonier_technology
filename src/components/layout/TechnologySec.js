@@ -22,7 +22,7 @@ const TechnologySec = () => {
         
          
             <h2 className="text-[48px] font-semibold">
-              Our leading <span className="text-blue-800"> tech stack </span>
+              Our leading <span className="text-blue-800"> Tech Stack </span>
             </h2>
          
         </div>
