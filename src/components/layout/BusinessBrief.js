@@ -10,13 +10,13 @@ import { FaHandsHelping } from "react-icons/fa";
 import { IoBriefcaseSharp } from "react-icons/io5";
 import { GiClockwork } from "react-icons/gi";
 import { RiCustomerService2Line } from "react-icons/ri";
-import Aos from 'aos';
-import 'aos/dist/aos.css';
+// import Aos from 'aos';
+// import 'aos/dist/aos.css';
 
 const BusinessBrief = () => {
-    Aos.init({
-        duration: 2000,
-    })
+    // Aos.init({
+    //     duration: 2000,
+    // })
   return (
     <>
       <div className='py-20 bg-[#e7e7ff]'>

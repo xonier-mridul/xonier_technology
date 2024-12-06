@@ -6,6 +6,7 @@ import StoreProvider from "@/components/layout/StoreProvider";
 import Footer from "@/components/layout/Footer";
 import dynamic from "next/dynamic";
 import Whatsapp from "@/components/layout/Whatsapp";
+import InitAos from "@/components/InitAos";
 
 
 const jost = Jost({
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
         className={`${jost.className} antialiased`}
       >
         <StoreProvider>
+          <InitAos/>
 
         <Header/>
         <Whatsapp/>

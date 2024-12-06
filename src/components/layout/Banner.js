@@ -9,10 +9,10 @@ import { FaAngleRight } from "react-icons/fa6";
 
 const Banner = () => {
     useEffect(() => {
-      Aos.init({
-        duration:2000,
+      // Aos.init({
+      //   duration:2000,
         
-      })
+      // })
     }, [])
     
   return (

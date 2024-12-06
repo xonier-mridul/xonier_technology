@@ -11,9 +11,9 @@ const TechnologySec = () => {
    const [activeTab, setactiveTab] = useState(1);
 
 
-   Aos.init({
-    duration: 2000
-   })
+  //  Aos.init({
+  //   duration: 2000
+  //  })
 
   return (
     <>
